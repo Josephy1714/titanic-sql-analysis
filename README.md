@@ -10,19 +10,22 @@ Google Colab – for Python modeling and evaluation
 
 Pandas, scikit-learn – for data preprocessing and machine learning
 
-📊 SQL Workflow Highlights
-Step	Task	SQL Skill
-1–3	Previewed raw data	SELECT, LIMIT
-4	Counted total passengers	COUNT(*)
-5	Gender breakdown	GROUP BY, COUNT(*)
-6	Class distribution	GROUP BY, COUNT(*)
-7	Average age by class	AVG(), ROUND()
-8	Survival by gender	SUM(), ROUND(), conditional math
-9	Survival by class	Same as above
-10	Missing age check	WHERE IS NULL
-11–13	Age & fare distribution	GROUP BY, AVG()
-14	Embarkation port breakdown	GROUP BY Embarked
-15	Exported cleaned table titanic_model.csv	CREATE TABLE, WHERE filters
+### 📊 SQL Workflow Highlights
+
+| Step | Task                            | SQL Skill                         |
+|------|---------------------------------|-----------------------------------|
+| 1–3  | Previewed raw data              | `SELECT`, `LIMIT`                 |
+| 4    | Counted total passengers        | `COUNT(*)`                        |
+| 5    | Gender breakdown                | `GROUP BY`, `COUNT(*)`            |
+| 6    | Class distribution              | `GROUP BY`, `COUNT(*)`            |
+| 7    | Average age by class            | `AVG()`, `ROUND()`                |
+| 8    | Survival by gender              | `SUM()`, `ROUND()`, conditional math |
+| 9    | Survival by class               | Same as above                     |
+| 10   | Missing age check               | `WHERE IS NULL`                   |
+| 11–13| Age & fare distribution         | `GROUP BY`, `AVG()`               |
+| 14   | Embarkation port breakdown      | `GROUP BY Embarked`               |
+| 15   | Exported cleaned table          | `CREATE TABLE`, `WHERE` filters   |
+
 📉 Modeling Attempt
 Built a survival prediction model using Sex, Pclass, Age, Fare, and Embarked
 
